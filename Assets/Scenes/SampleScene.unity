@@ -138,9 +138,9 @@ GameObject:
   m_Component:
   - component: {fileID: 724524750}
   - component: {fileID: 724524749}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Ocean
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,10 +174,10 @@ MonoBehaviour:
   _minScale: 8
   _maxScale: 256
   _dropDetailHeightBasedOnWaves: 0.2
-  _lodDataResolution: 384
+  _lodDataResolution: 256
   _geometryDownSampleFactor: 2
   _lodCount: 7
-  _extentsSizeMultiplier: 100
+  _extentsSizeMultiplier: 10
   _simSettingsAnimatedWaves: {fileID: 0}
   _createSeaFloorDepthData: 1
   _simSettingsSeaFloorDepth: {fileID: 0}
@@ -232,9 +232,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1129069630}
   - component: {fileID: 1129069629}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Waves
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,7 +260,7 @@ MonoBehaviour:
   _weight: 1
   _blendMode: 0
   _queue: 0
-  _resolution: 128
+  _resolution: 256
   _debugDrawSlicesInEditor: 0
   _overrideSplineSettings: 0
   _radius: 50
@@ -315,7 +315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373999766}
   m_LocalRotation: {x: 0.093654536, y: -0.5940459, z: 0.0612613, w: 0.79660875}
-  m_LocalPosition: {x: 34.6, y: 21.4, z: -18.9}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -461,9 +461,9 @@ MonoBehaviour:
   _centerOfMass: {x: 0, y: -1, z: 5}
   _forcePoints:
   - _weight: 1000
-    _offsetPosition: {x: 0, y: -5, z: 30}
+    _offsetPosition: {x: 0, y: -3, z: 30}
   - _weight: 1000
-    _offsetPosition: {x: 0, y: -5, z: -24}
+    _offsetPosition: {x: 0, y: -3, z: -24}
   _forceHeightOffset: 0
   _forceMultiplier: 10
   _minSpatialLength: 60
@@ -472,7 +472,7 @@ MonoBehaviour:
   _dragInWaterUp: 0.5
   _dragInWaterRight: 1
   _dragInWaterForward: 0.3
-  _enginePower: 10
+  _enginePower: 30
   _turnPower: 0.3
   _playerControlled: 1
   _engineBias: 0
