@@ -53,7 +53,7 @@ namespace Crest
         public float _enginePower = 7;
         [FormerlySerializedAs("TurnPower")]
         public float _turnPower = 0.5f;
-        public bool _playerControlled = true;
+        public bool _playerControlled = false;
         [Tooltip("Used to automatically add throttle input")]
         public float _engineBias = 0f;
         [Tooltip("Used to automatically add turning input")]
